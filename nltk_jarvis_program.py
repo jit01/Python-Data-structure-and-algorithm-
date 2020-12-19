@@ -51,8 +51,8 @@ if __name__ == "__main__":
     while True:
         query = getcommand().lower()
         try:
-            if 'Hi' or 'Hello' in query:
-                talk("Hi I'm Jarvis! How Can I help you ")
+            # if 'Hi' or 'Hello' in query:
+            #     talk("Hi I'm Jarvis! How Can I help you ")
             if 'wikipedia' in query:
                 talk("Searching in wikipedia")
                 query = query.replace("Wikipedia", "")
